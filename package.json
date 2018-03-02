@@ -1,0 +1,11 @@
+{
+  "name": "@gentux/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier config file for Generation Tux projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
