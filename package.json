@@ -1,5 +1,5 @@
 {
-  "name": "@gentux/prettier-config",
+  "name": "@generationtux/prettier-config",
   "version": "1.0.0",
   "description": "Prettier config file for Generation Tux projects.",
   "main": "index.js",
