@@ -1,7 +1,12 @@
 module.exports = {
-  parser: "flow",
-  bracketSpacing: true,
-  jsxBracketSameLine: true,
   semi: true,
-  trailingComma: "es5"
+  singleQuote: true,
+  trailingComma: "es5",
+  parser: "flow",
+  overrides: [
+    {
+      files: ["*.ts", "*.tsx"],
+      options: { parser: "typescript-eslint-parser" }
+    }
+  ]
 };
