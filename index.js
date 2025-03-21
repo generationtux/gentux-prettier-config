@@ -1,7 +1,12 @@
 module.exports = {
+  arrowParens: 'always',
+  endOfLine: 'lf',
+  jsxSingleQuote: false,
+  parser: 'typescript',
+  printWidth: 140,
   semi: true,
   singleQuote: true,
-  printWidth: 120,
-  trailingComma: "es5",
-  parser: "babylon"
+  tabWidth: 2,
+  trailingComma: 'es5',
+  useTabs: false,
 };
