@@ -1,1 +1,1 @@
-module.exports = require("@generationtux/prettier-config");
+module.exports = require('@generationtux/prettier-config');

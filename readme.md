@@ -5,32 +5,52 @@ Prettier config file for Generation Tux projects.
 ## Requirements
 
 - Node.js >= 18.18.0
-- TypeScript >= 4.8.4 (if using TypeScript)
-- ESLint ^8.57.0 or ^9.0.0 (if using ESLint)
+- Prettier >= 3.0.0
 
-## Setup
+## Installation
 
-1. Run `npm i -D @generationtux/prettier-config`
-2. Copy `example/.prettierrc.js` to `.prettierrc.js` in your project
+```bash
+npm install -D @generationtux/prettier-config
+```
 
-## Features
+## Usage
 
-- Configured with TypeScript support using `@typescript-eslint/parser`
-- Standard prettier configuration:
-  - Arrow parentheses: always
-  - End of line: 'lf'
-  - JSX single quotes: false
-  - Parser: 'typescript'
-  - Print width: 140
-  - Semi colons: true
-  - Single quotes: true
-  - Tab width: 2
-  - Tabs: false
-  - Trailing comma: ES5
-
-## Example Configuration
+Create a `.prettierrc.js` file in your project root:
 
 ```javascript
-// .prettierrc.js
 module.exports = require('@generationtux/prettier-config');
+```
+
+Or add to your `package.json`:
+
+```json
+{
+  "prettier": "@generationtux/prettier-config"
+}
+```
+
+## Configuration
+
+This config includes the following Prettier options:
+
+- Arrow parentheses: `always`
+- End of line: `lf`
+- JSX single quotes: `false`
+- Parser: `typescript`
+- Print width: `140`
+- Semicolons: `true`
+- Single quotes: `true`
+- Tab width: `2`
+- Trailing comma: `all`
+- Use tabs: `false`
+
+## Extending
+
+To extend or override options:
+
+```javascript
+module.exports = {
+  ...require('@generationtux/prettier-config'),
+  printWidth: 100,
+};
 ```
