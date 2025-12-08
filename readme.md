@@ -54,3 +54,18 @@ module.exports = {
   printWidth: 100,
 };
 ```
+
+## Changelog
+
+### 3.0.0
+- Changed `trailingComma` from `es5` to `all`
+- Added `peerDependencies` requiring Prettier >= 3.0.0
+- Added package metadata (repository, keywords, etc.)
+
+### 2.0.0
+- Updated `printWidth` from 80 to 140
+- Upgraded Prettier compatibility
+
+### 1.0.0
+- Initial release with TypeScript parser support
+- Single quotes enabled
