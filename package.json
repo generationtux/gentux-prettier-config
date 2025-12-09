@@ -1,14 +1,32 @@
 {
   "name": "@generationtux/prettier-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Prettier config file for Generation Tux projects.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Generation Tux",
   "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generationtux/gentux-prettier-config.git"
+  },
+  "homepage": "https://github.com/generationtux/gentux-prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/generationtux/gentux-prettier-config/issues"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "generationtux",
+    "code-style",
+    "formatting"
+  ],
+  "files": [
+    "index.js"
+  ],
   "engines": {
     "node": ">=18.18.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
   }
 }
