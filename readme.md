@@ -55,7 +55,18 @@ module.exports = {
 };
 ```
 
+## Release
+
+Bump the version in `package.json` and merge to `master`. CI publishes to npm via
+trusted publishing (OIDC) — there is no token to log in with, and publishing from
+a laptop will not work.
+
 ## Changelog
+
+### 3.0.1
+
+- Publish via npm trusted publishing (OIDC) instead of a stored token
+- Bumped CI to Node 24
 
 ### 3.0.0
 - Changed `trailingComma` from `es5` to `all`
